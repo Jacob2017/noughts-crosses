@@ -1,9 +1,9 @@
 # noughts-crosses
 Classes:
-* Game
+* NoughtsCrosses
 * Board
 
-## Game
+## NoughtsCrosses
 Instance variables:
 * board (class Board)
 * player name (class String)
@@ -11,10 +11,10 @@ Instance variables:
 * difficulty (class Integer)
 
 Methods:
-* get_player_name
-* create_board
-* player_move_first?
-* get_player_move
+* getPlayerName
+* createBoard
+* playerMoveFirst?
+* getPlayerMove
 
 ## Board
 Instance variables:
@@ -24,5 +24,5 @@ Instance variables:
 * result (class String)
 
 Methods:
-* make_move
-* evaluate_board/game_complete?
+* makeMove
+* evaluateBoard/gameComplete?
